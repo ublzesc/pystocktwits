@@ -133,7 +133,7 @@ class Streamer():
         raw_json = r.json()
         return raw_json
     
-    def get_all_msgs(self, symbol_id, since=0, max=0, limit=0, callback=None, filter=None):
+    def get_all_msgs(self, since=0, max=0, limit=0, callback=None, filter=None):
 
         '''Returns the most recent 30 messages in the platform.
 
